@@ -1,0 +1,7 @@
+{
+  "files.associations": {
+    "HierarchicalInheritance.C": "cpp",
+    "ostream": "cpp",
+    "POINTER_TO_POINTER.C": "cpp"
+  }
+}
