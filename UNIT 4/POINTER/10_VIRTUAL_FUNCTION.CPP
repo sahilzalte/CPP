@@ -31,5 +31,7 @@ int main()
     ptr->show();
     ptr = new Derived2();
     ptr->show();
+
+    delete ptr;
     return 0;
 }
