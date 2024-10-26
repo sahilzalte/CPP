@@ -2,6 +2,8 @@
   "files.associations": {
     "HierarchicalInheritance.C": "cpp",
     "ostream": "cpp",
-    "POINTER_TO_POINTER.C": "cpp"
+    "POINTER_TO_POINTER.C": "cpp",
+    "iostream": "cpp",
+    "PROJECT.C": "cpp"
   }
 }
