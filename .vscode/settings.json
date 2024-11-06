@@ -4,6 +4,7 @@
     "iostream": "cpp",
     "MultipleInheritance.C": "cpp",
     "MultilevelInheritance.C": "cpp",
-    "HierarchicalInheritance.C": "cpp"
+    "HierarchicalInheritance.C": "cpp",
+    "fstream": "cpp"
   }
 }

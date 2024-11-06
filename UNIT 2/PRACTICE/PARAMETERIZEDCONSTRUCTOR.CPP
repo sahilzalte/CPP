@@ -1,17 +1,19 @@
 #include <iostream>
 using namespace std;
-class Myclass
+class snd
 {
-public:
+private:
     int x;
-    Myclass(int a)
+
+public:
+    snd(int a)
     {
-    x=a;
-    cout<<"The parameterized constructor called:"<<a<<endl;
+        x = a;
+        cout << "The parameterized constructor called:" << a << endl;
     }
 };
 int main()
 {
-    Myclass m(100);
+    snd m(100);
     return 0;
 }
