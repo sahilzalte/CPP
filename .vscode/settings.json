@@ -5,6 +5,15 @@
     "MultipleInheritance.C": "cpp",
     "MultilevelInheritance.C": "cpp",
     "HierarchicalInheritance.C": "cpp",
-    "fstream": "cpp"
-  }
+    "fstream": "cpp",
+    "ostream": "cpp"
+  },
+  "spellright.language": [
+    "en"
+  ],
+  "spellright.documentTypes": [
+    "markdown",
+    "latex",
+    "plaintext"
+  ]
 }

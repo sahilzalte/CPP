@@ -1,7 +1,5 @@
 #include <iostream>
 using namespace std;
-
-// Base class
 class Animal
 {
 public:
@@ -11,7 +9,6 @@ public:
     }
 };
 
-// Derived class Dog inherits from Animal
 class Dog : public Animal
 {
 public:
@@ -21,7 +18,6 @@ public:
     }
 };
 
-// Derived class Cat inherits from Animal
 class Cat : public Animal
 {
 public:
@@ -33,16 +29,11 @@ public:
 
 int main()
 {
-    // Creating objects of derived classes
+    Animal a1;
     Dog d1;
     Cat c1;
-
-    // Calling methods from the base class Animal
-    d1.eat();  // Dog inherits eat() from Animal
-    d1.bark(); // Dog's specific method
-
-    c1.eat();  // Cat inherits eat() from Animal
-    c1.meow(); // Cat's specific method
-
+    a1.eat();
+    d1.bark();
+    c1.meow();
     return 0;
 }
