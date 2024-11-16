@@ -21,6 +21,6 @@ int main()
     Test obj1;
     obj1.fun(7);
     obj1.fun(3.14);
-    obj1.fun(0,7);
+    obj1.fun(0, 7);
     return 0;
-} 
+}
