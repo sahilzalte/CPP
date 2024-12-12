@@ -23,10 +23,20 @@ public:
 
     double calculatearea()
     {
-        return breadth*length;
+        return length * breadth;
+    }
+
+    void Display()
+    {
+        cout << "The area of Rectangle is : " << calculatearea() << endl;
     }
 };
 
 int main()
 {
+    Rectangle R;
+    R.acceptata();
+    R.calculatearea();
+    R.Display();
+    return 0;
 }
