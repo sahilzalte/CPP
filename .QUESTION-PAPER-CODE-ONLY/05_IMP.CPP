@@ -5,35 +5,25 @@ using namespace std;
 
 int main()
 {
-    // Declare input and output file streams
-    ifstream inputFile("source.txt", ios::in);
-    ofstream outputFile("destination.txt", ios::out);
-
-    // Check if the input file is open
-    if (!inputFile)
+    ifstream inputfile("05_source.txt");
+    ofstream outputfile("05_destination.txt");
+    if (!inputfile)
     {
-        cerr << "Error: Could not open the source file!" << endl;
-        return 1;
+        cout << "Error openning source file";
     }
-
-    // Check if the output file is open
-    if (!outputFile)
+    if (!outputfile)
     {
-        cerr << "Error: Could not open the destination file!" << endl;
-        return 1;
+        cout << "Error openning destination file";
     }
-
-    // Copy content from source file to destination file
     char ch;
-    while (inputFile.get(ch))
+    while (inputfile.get(ch))
     {
-        outputFile.put(ch);
+        outputfile.put(ch);
     }
 
-    // Close both files
-    inputFile.close();
-    outputFile.close();
+    inputfile.close();
+    outputfile.close();
 
-    cout << "File copied successfully!" << endl;
+    cout << "File copy Successfully";
     return 0;
 }

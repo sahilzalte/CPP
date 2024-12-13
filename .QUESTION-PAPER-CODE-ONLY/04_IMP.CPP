@@ -1,12 +1,11 @@
 // Write a C++ program for write into a file using file operations.
-#include <fstream>
 #include <iostream>
+#include <fstream>
 using namespace std;
 int main()
 {
-    ofstream file("example.txt");
-    file << "Hello, world!";
-    file.close(); // Closing the file
-    cout << "File closed successfully!";
+    ofstream Outfile("04_Sample.txt");
+    Outfile << "Hello";
+    Outfile.close();
     return 0;
 }
