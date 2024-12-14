@@ -1,28 +1,25 @@
-/*  Write C++ program to overload binary operator + to concatenate two strings*/
+/* Write a program to overload '-'unary operator to negate the values.*/
 #include <iostream>
-#include <string>
 using namespace std;
-
-class String
+class Number
 {
-    string value;
-
 public:
-    String(string val) : value(val) {}
-    String operator+(const String &obj)
+    int value;
+    Number(int val) : value(val) {}
+    Number operator-()
     {
-        return String(value + obj.value);
-    } 
+        return -value;
+    }
+
     void display()
     {
         cout << value << endl;
-    } 
+    }
 };
-
 int main()
 {
-    String str1("Hello, "), str2("World!");
-    String result = str1 + str2; 
-    result.display();            
+    Number num(20);
+    (-num).display();
     return 0;
 }
+
