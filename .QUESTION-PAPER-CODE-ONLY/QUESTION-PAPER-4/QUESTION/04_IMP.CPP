@@ -12,7 +12,7 @@ int main()
         return 1;
     }
 
-    int lineCount = 0;
+    int lineCount ;
     char ch;
     while (inputfile.get(ch))
     {
