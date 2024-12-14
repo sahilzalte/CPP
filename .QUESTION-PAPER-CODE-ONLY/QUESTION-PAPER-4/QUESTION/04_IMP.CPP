@@ -2,28 +2,21 @@
 #include <iostream>
 #include <fstream>
 using namespace std;
-
 int main()
 {
-    ifstream inputfile("example.txt"); // Open the input file
+    ifstream inputfile("04_example.txt");
     if (!inputfile)
     {
-        cout << "Error opening file";
-        return 1;
+        cout << "Error openning File";
     }
-
-    int lineCount ;
-    char ch;
-    while (inputfile.get(ch))
+    int count_lines = 0;
+    string line;
+    while (getline(inputfile, line))
     {
-        if (ch == '\n') // Count newline characters
-        {
-            lineCount++;
-        }
+        count_lines++;
     }
-
     inputfile.close();
+    cout << "Number of lines in file :" << count_lines << endl;
 
-    cout << "Number of lines in the file: " << lineCount + 1 << endl; // Add 1 for the last line
     return 0;
 }

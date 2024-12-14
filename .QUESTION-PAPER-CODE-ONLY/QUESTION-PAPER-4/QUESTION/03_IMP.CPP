@@ -3,7 +3,7 @@
 using namespace std;
 int main()
 {
-    int arr[] = {10, 50, 60, 80, 30};
+    int arr[] = {10, 40, 29, 50, 5};
     int i, j, temp;
 
     for (i = 0; i < 4; i++)
@@ -12,15 +12,18 @@ int main()
         {
             if (arr[j] > arr[j + 1])
             {
+
                 temp = arr[j];
                 arr[j] = arr[j + 1];
                 arr[j + 1] = temp;
             }
         }
     }
+
     for (i = 0; i < 5; i++)
     {
-        cout << arr[i] << " " << endl;
+        cout << arr[i] << endl;
+        ;
     }
 
     return 0;

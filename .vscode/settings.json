@@ -8,7 +8,8 @@
     "fstream": "cpp",
     "ostream": "cpp",
     "*.tcc": "cpp",
-    "iosfwd": "cpp"
+    "iosfwd": "cpp",
+    "istream": "cpp"
   },
   "spellright.language": [
     "en"
