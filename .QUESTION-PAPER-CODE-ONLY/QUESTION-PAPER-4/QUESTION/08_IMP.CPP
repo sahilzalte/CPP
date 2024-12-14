@@ -9,8 +9,9 @@
 			data members : marks1 , marks2                  data members : score
 			|                                                       |
 			|                                                       |
-			v      							                        |
-   			  	                                                   	v
+			v      							|
+   			  	                                            	v
 			class : result  <---------------------------------------  
 			data member:total
 */
+
