@@ -1,46 +1,40 @@
+/*Write a C++ program to overload "+" operator so
+that it will perform concatenation of two strings.
+(Use class get data function to accept two strings)*/
 #include <iostream>
 using namespace std;
-
-class String
+class hello
 {
+public:
     string value;
 
-public:
-    // Function to accept user input
-    void get_data()
+    void getdata()
     {
         getline(cin, value);
-        // cin>>value;
     }
 
-    // Overloaded '+' operator to return a String object
-    String operator+( String &obj)
+    hello operator+(hello &obj)
     {
-        String result;
+        hello result;
         result.value = value + obj.value;
         return result;
     }
 
-    // Function to display the string
     void display()
     {
         cout << value << endl;
     }
 };
-
 int main()
 {
-    String str1, str2;
+    hello str1, str2;
+    cout << "Enter first string:";
+    str1.getdata();
+    cout << "Enter secound string :";
+    str2.getdata();
 
-    // Accept input for both strings
-    cout << "Enter first string: ";
-    str1.get_data();
-    cout << "Enter second string: ";
-    str2.get_data();
-
-    // Concatenate the two strings and display the result
-    String result = str1 + str2;
-    cout << "Concatenated String: ";
+    hello result = str1 + str2;
+    cout << "concatenated Strings:";
     result.display();
 
     return 0;
