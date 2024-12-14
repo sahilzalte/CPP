@@ -1,8 +1,10 @@
+// This pointer Concept
+
 #include <iostream>
 using namespace std;
 class A
 {
-    int a, b;
+    int a,  b;
 
 public:
     A(int a, int b)
@@ -10,6 +12,7 @@ public:
         this->a = a;
         this->b = b;
     }
+
     void show()
     {
         cout << a << " " << b << endl;
@@ -17,7 +20,7 @@ public:
 };
 int main()
 {
-    A obj(10,20);
+    A obj(10, 30);
     obj.show();
     return 0;
 }

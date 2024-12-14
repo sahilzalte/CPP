@@ -19,8 +19,8 @@ public:
 int main()
 {   
     complex *ptr=new complex;
-    (*ptr).setdata(1,54);
-    (*ptr).getdata();
+    ptr->setdata(1,54);
+    ptr->getdata();
     delete ptr;
   
 
