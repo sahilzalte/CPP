@@ -9,7 +9,21 @@
     "ostream": "cpp",
     "*.tcc": "cpp",
     "iosfwd": "cpp",
-    "istream": "cpp"
+    "istream": "cpp",
+    "array": "cpp",
+    "string": "cpp",
+    "unordered_map": "cpp",
+    "algorithm": "cpp",
+    "functional": "cpp",
+    "memory": "cpp",
+    "numeric": "cpp",
+    "random": "cpp",
+    "system_error": "cpp",
+    "tuple": "cpp",
+    "type_traits": "cpp",
+    "cmath": "cpp",
+    "streambuf": "cpp",
+    "utility": "cpp"
   },
   "spellright.language": [
     "en"
