@@ -22,4 +22,3 @@ int main()
     (-num).display();
     return 0;
 }
-
