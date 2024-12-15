@@ -1,3 +1,4 @@
+// Friend Function 
 #include <iostream>
 using namespace std;
 class Snd
@@ -17,3 +18,5 @@ int main()
     print(s);
     return 0;
 }
+
+
