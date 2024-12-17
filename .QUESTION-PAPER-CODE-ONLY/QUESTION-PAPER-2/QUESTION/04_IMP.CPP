@@ -1,3 +1,4 @@
+/* Write a program to overload '-'unary operator to negate the values.*/
 #include <iostream>
 using namespace std;
 class Number
@@ -9,14 +10,15 @@ public:
     {
         return -value;
     }
+
     void display()
     {
-        cout<<value<<endl;
+        cout << value << endl;
     }
 };
 int main()
 {
-    Number num(29);
+    Number num(20);
     (-num).display();
     return 0;
 }
